@@ -41,3 +41,5 @@ C:\Users\Pedro\Desktop\programacion\bd\practicas\BDTest\obj\Debug\BDTest.csproj.
 C:\Users\Pedro\Desktop\programacion\bd\practicas\BDTest\obj\Debug\BDTest.csproj.Up2Date
 C:\Users\Pedro\Desktop\programacion\bd\practicas\BDTest\obj\Debug\BDTest.exe
 C:\Users\Pedro\Desktop\programacion\bd\practicas\BDTest\obj\Debug\BDTest.pdb
+C:\Users\Pedro\Desktop\programacion\bd\practicas\BDTest\obj\Debug\BDTest.Menu.resources
+C:\Users\Pedro\Desktop\programacion\bd\practicas\BDTest\obj\Debug\BDTest.Personas.resources

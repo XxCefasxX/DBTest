@@ -26,7 +26,7 @@ namespace BDTest
             string am=tbAM.Text;
             string ciudad = tbCiudad.Text;
             string edad=tbEdad.Text;
-
+            
             MySqlConnection conn = new MySqlConnection("server=127.0.0.1;uid=root;pwd=123456;database=pruebas");
             MySqlCommand comm = new MySqlCommand("insert into personas(nombre,apellidoP,apellidoM,ciudad,edad)" +
                 $"values ('{nombre}','{ap}','{am}','{ciudad}','{edad}');", conn);
