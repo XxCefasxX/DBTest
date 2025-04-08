@@ -39,6 +39,8 @@
             this.tbAM = new System.Windows.Forms.TextBox();
             this.tbAP = new System.Windows.Forms.TextBox();
             this.tbNombre = new System.Windows.Forms.TextBox();
+            this.btUpdate = new System.Windows.Forms.Button();
+            this.lbID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gvPersonas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -131,11 +133,32 @@
             this.tbNombre.Size = new System.Drawing.Size(100, 20);
             this.tbNombre.TabIndex = 10;
             // 
+            // btUpdate
+            // 
+            this.btUpdate.Location = new System.Drawing.Point(409, 86);
+            this.btUpdate.Name = "btUpdate";
+            this.btUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btUpdate.TabIndex = 20;
+            this.btUpdate.Text = "Actualizar";
+            this.btUpdate.UseVisualStyleBackColor = true;
+            this.btUpdate.Click += new System.EventHandler(this.btUpdate_Click);
+            // 
+            // lbID
+            // 
+            this.lbID.AutoSize = true;
+            this.lbID.Location = new System.Drawing.Point(2, 7);
+            this.lbID.Name = "lbID";
+            this.lbID.Size = new System.Drawing.Size(16, 13);
+            this.lbID.TabIndex = 21;
+            this.lbID.Text = "---";
+            // 
             // Personas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 280);
+            this.Controls.Add(this.lbID);
+            this.Controls.Add(this.btUpdate);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -169,5 +192,7 @@
         private System.Windows.Forms.TextBox tbAM;
         private System.Windows.Forms.TextBox tbAP;
         private System.Windows.Forms.TextBox tbNombre;
+        private System.Windows.Forms.Button btUpdate;
+        private System.Windows.Forms.Label lbID;
     }
 }
